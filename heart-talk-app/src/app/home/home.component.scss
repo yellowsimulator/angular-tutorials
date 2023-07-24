@@ -1,0 +1,89 @@
+.highlight-card {
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 1000px;  /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+  }
+  
+  .highlight-card:hover {
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.25);
+  
+    }
+
+.center-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.center-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.title-style {
+    font-size: 2em; /* Adjust as needed */
+}
+  
+.content-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+  } 
+  
+  /*... existing styles ...*/
+
+// .content-style p {
+//   font-size: 20px;    /* larger font size */
+//   line-height: 1.5;  /* space between lines for readability */
+//   font-family: Arial, sans-serif;  /* different font */
+//   color: #333;       /* darker text color for readability */
+//   text-align: justify; /* text alignment */
+//   text-justify: inter-word; /* improves spacing between words */
+// }
+
+// .mat-card-content {
+//   margin-top: 10px; /* Adjust this value as per your requirement */
+// }
+
+// .mat-card-actions {
+//   margin-top: 20px; /* Adjust this value as per your requirement */
+// }
+
+.content-style p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+  .styled-button {
+    color: #fff;  /* White text */
+    background-color: #a0bad6;  /* Blue background */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);  /* Slight shadow */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .styled-button:hover {
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);  /* Bigger shadow on hover */
+  }
+
+  .styled-button:first-child {
+    margin-right: 20px;  /* Add margin to the right of the first button */
+  }
+
+  .refresh-button {
+    margin-left: 20px;  /* adjust as needed */
+  }
+  
+  
+  
+
+  
